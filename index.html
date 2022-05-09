@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculator__full">
+        <div id= 'input' class="result__screen">
+            <div class="previous-operand" id="previous-operand"></div>
+            <div class="current-operand" id="current-operand"></div>
+        </div>
+        <div class="buttons__screen">
+            <div class="row row__1">
+                <button class="ac_button btn" id="all-clear">AC</button>
+                <button class="back_button btn" id="delete">C</button>
+                <button class="divide_button btn btn_operand " id="operation">/</button>
+            </div>
+            <div class="row row__2">
+                <button class="seven_button btn number"  id="number">7</button>
+                <button class="eight_button btn number"  id="number">8</button>
+                <button class="nine_button btn number"  id="number">9</button>
+                <button class="multiply_button btn btn_operand" id="operation">*</button>
+            </div>
+            <div class="row row__3">
+                <button class="four_button btn number"  id="number">4</button>
+                <button class="five_button btn number"  id="number">5</button>
+                <button class="six_button btn number"  id="number">6</button>
+                <button class="minus_button btn btn_operand" id="operation">-</button>
+            </div>
+            <div class="row row__4">
+                <button class="one_button btn number"  id="number">1</button>
+                <button class="two_button btn number"  id="number">2</button>
+                <button class="three_button btn number"  id="number">3</button>
+                <button class="summatory_button btn btn_operand" id="operation">+</button>
+            </div>
+            <div class="row row__5">
+                <button class="cero_button btn number" id="number">0</button>
+                <button class="coma_button btn" id="number">.</button>
+                <button class="equal_button btn btn_operand" id="equals">=</button>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
